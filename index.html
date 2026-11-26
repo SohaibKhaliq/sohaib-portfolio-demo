@@ -1,255 +1,1312 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<!--[if IE 8]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<!--<![endif]-->
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sohaib Khaliq — Software Engineer | Full-Stack Developer</title>
-<meta name="description" content="Sohaib Khaliq — Software Engineer based in Gujrat, Pakistan. I build custom software, websites, web apps and mobile apps that turn ideas into fast, reliable products.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;1,500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="icon" href="assets/images/avatar.jpg">
+    <meta charset="utf-8">
+    <title>Sohaib Khaliq - Personal Portfolio</title>
+    <meta name="author" content="themesflat.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description"
+        content="Davies - Personal Portfolio is a sleek and modern HTML template designed for developers, designers, freelancers, and professionals who want to showcase their work online. Fully responsive, SEO-friendly, and easy to customize, it helps you create a strong personal brand and impress potential clients or employers.">
+
+    <!-- font -->
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
+    <link rel="stylesheet" href="assets/fonts/inter/inter.css">
+    <link rel="stylesheet" href="assets/icon/icomoon/style.css">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+    <!-- Favicon and Touch Icons  -->
+    <link rel="shortcut icon" href="assets/images/logo/favicon.svg">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/logo/favicon.svg">
 </head>
-<body>
 
-<header>
-  <div class="wrap nav">
-    <a class="logo" href="#home">Sohaib<span>.</span>Khaliq</a>
-    <nav class="nav-links">
-      <a href="#home">Home</a><a href="#about">About</a><a href="#education">Experience</a>
-      <a href="#work">Work</a><a href="#services">Services</a><a href="#tech">Tech</a>
-      <a href="#testimonials">Testimonials</a><a href="#contact">Contact</a>
-    </nav>
-    <div class="nav-cta">
-      <span class="demo-badge">Demo preview</span>
-      <span class="pill"><span class="dot"></span>Available for Work</span>
-    </div>
-  </div>
-</header>
+<body class="counter-scroll">
+    <!-- <canvas class="cursor-trail d-none d-xl-block" id="trail"></canvas> -->
 
-<!-- HERO — Isak home-v3: greeting, rotating role, avatar card -->
-<section class="hero" id="home">
-  <div class="wrap hero-grid">
-    <div>
-      <span class="pill"><span class="dot"></span>Available for freelance</span>
-      <h1>Hey, I&rsquo;m Sohaib<br>
-        <span class="role"><b>Software Engineer</b> &amp;<br><span class="rot" id="rot">Full-Stack Developer</span></span>
-      </h1>
-      <p>I build <b>custom software and websites</b> that turn your ideas into fast, reliable products — based in <b>Gujrat, Pakistan</b>, working with clients in Pakistan and Qatar.</p>
-      <div class="hero-actions">
-        <a class="btn" href="#contact">Let&rsquo;s talk &rarr;</a>
-        <a class="btn ghost" href="#work">View my work</a>
-      </div>
-      <p class="hero-meta">Software Engineer at GIMS Arid University &nbsp;·&nbsp; Remote contract with Trevora Media, Qatar</p>
-    </div>
-    <div class="avatar-card">
-      <img src="assets/images/avatar.jpg" alt="Sohaib Khaliq">
-      <h3>Sohaib Khaliq</h3>
-      <p>Software Engineer — Full-Stack Web Development<br>(Laravel, PHP, MySQL)</p>
-      <div class="tags"><span class="tag">Laravel</span><span class="tag">PHP</span><span class="tag">Flutter</span><span class="tag">Next.js</span></div>
-    </div>
-  </div>
-</section>
-
-<!-- BIG HEADLINE + STATS -->
-<section class="band">
-  <div class="wrap">
-    <h2>Building software <em>people remember</em> — fast, reliable, and made to last.</h2>
-    <div class="stats">
-      <div class="stat"><b>2<span>+</span></b><p>Years of experience building production Laravel &amp; PHP platforms</p></div>
-      <div class="stat"><b>7</b><p>Selected works live in production — agencies, education, business &amp; services</p></div>
-      <div class="stat"><b>6</b><p>Services offered — from custom websites to mobile apps and ongoing support</p></div>
-    </div>
-  </div>
-  <div class="marquee" aria-hidden="true">
-    <span><i>●</i>Laravel</span><span><i>●</i>PHP</span><span><i>●</i>MySQL</span><span><i>●</i>Next.js</span><span><i>●</i>Vue.js</span><span><i>●</i>Flutter</span><span><i>●</i>Firebase</span><span><i>●</i>REST APIs</span><span><i>●</i>Docker</span><span><i>●</i>Coolify</span>
-  </div>
-</section>
-
-<!-- ABOUT -->
-<section id="about">
-  <div class="wrap about-grid">
-    <div>
-      <span class="eyebrow">About</span>
-      <h2>Building reliable software with <em>clean, tested code</em></h2>
-      <p class="lead">I build reliable software and web applications using clean, tested code — starting with your idea and requirements, then turning them into fast, secure and easy-to-use products that work well for you, daily.</p>
-      <p class="lead" style="margin-top:16px">Driven by unique thinking, I deliver creative, high-quality solutions that simplify complexity — from a business website to a full HR system or CRM your whole team runs on.</p>
-    </div>
-    <div class="highlights">
-      <div class="hl"><b>40<span>%</span></b><p>Manual administrative workload reduced at GIMS through automation<small>HR, attendance &amp; e-learning platforms — Laravel + MySQL</small></p></div>
-      <div class="hl"><b>7</b><p>Production projects shipped and live — Qatar &amp; Pakistan<small>Trevora Media · Legacy Group · GIMS · Banshee · Al Rehaab &amp; more</small></p></div>
-      <div class="hl"><b>2–4 <span>wks</span></b><p>Typical delivery for a website; 4–12 weeks for a web application<small>Exact quote is free — share your requirements</small></p></div>
-      <div class="hl"><b>2<span>+</span></b><p>Years as a software engineer — plus teaching CS &amp; mentoring juniors<small>Lecturer in Computer Science · NAVTTC instructor, Web Application Development</small></p></div>
-    </div>
-  </div>
-</section>
-
-<!-- EDUCATION & EXPERIENCE -->
-<section id="education" style="padding-top:0">
-  <div class="wrap">
-    <span class="eyebrow">Education &amp; Experience</span>
-    <h2 style="margin-top:14px">Where I work — <em>and what I studied</em></h2>
-    <div class="timeline">
-      <div class="tl">
-        <time>May 2024 — Now<small>Gujrat, Pakistan</small></time>
-        <div><h3>Software Engineer — GIMS Arid University</h3>
-        <p>Architected enterprise academic platforms in Laravel and MySQL across HR, attendance and e-learning; designed RESTful APIs and automated data pipelines. Reduced manual administrative workload by over 40% through intelligent automation. Mentored junior developers and CS students in Git, cloud deployment and software engineering best practices.</p></div>
-      </div>
-      <div class="tl">
-        <time>Ongoing<small>Remote · Qatar</small></time>
-        <div><h3>Contract Engagement — Trevora Media</h3>
-        <p>Handling all development work for Trevora Media, a marketing agency in Qatar — custom software development, web application development, websites and WordPress.</p></div>
-      </div>
-      <div class="tl">
-        <time>2020 — 2024<small>Rawalpindi, Pakistan</small></time>
-        <div><h3>Bachelor of Science, Computer Science — PMAS Arid Agriculture University</h3>
-        <p>CGPA 3.01. Also served as Graphic Designer in the GIMS Student Society.</p></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- WORK HIGHLIGHTS -->
-<section id="work" style="padding-top:0">
-  <div class="wrap">
-    <div class="work-head">
-      <div><span class="eyebrow">Work Highlights</span>
-      <h2>Selected <em>works</em></h2></div>
-      <p class="lead" style="max-width:420px">Production websites and systems I designed and built — each one live, each one running a real business or institution.</p>
-    </div>
-    <div class="featured">
-      <article class="work-card">
-        <div class="work-cover c1"><span>Trevora Media · Qatar</span></div>
-        <div class="work-body">
-          <h3>Trevora Media</h3>
-          <p>Production Laravel website for a data-driven digital marketing agency in Qatar — custom CMS, SEO, and inquiry &amp; lead pipelines that turn visitors into clients. Plus Trevora WorkOS, a complete CRM bringing its clients, leads and day-to-day operations together in one place.</p>
-          <div class="work-meta"><span><b>Year</b>Ongoing</span><span><b>Role</b>Full-Stack Developer</span><span><b>Stack</b>Laravel · MySQL · CMS</span></div>
-          <a class="btn ghost" href="https://trevoramedia.com" target="_blank" rel="noopener">Visit live site &rarr;</a>
+    <!-- Preload -->
+    <div class="preload preload-container" id="preload">
+        <div class="preload-logo">
+            <div class="spinner"></div>
         </div>
-      </article>
-      <article class="work-card">
-        <div class="work-cover c2"><span>GIMS · Education</span></div>
-        <div class="work-body">
-          <h3>HRMS — Human Resource Management System</h3>
-          <p>Academic platforms and HRMS with biometric attendance integration — covering HR, attendance and e-learning for the institute, with automated data pipelines that cut manual admin work by over 40%.</p>
-          <div class="work-meta"><span><b>Year</b>2024 — Now</span><span><b>Role</b>Software Engineer</span><span><b>Stack</b>Laravel · MySQL · APIs</span></div>
-          <a class="btn ghost" href="https://hr.gim.edu.pk" target="_blank" rel="noopener">Visit live site &rarr;</a>
+    </div>
+    <!-- /Preload -->
+
+    <!-- Body Background -->
+    <div class="body-background">
+        <div class="bg-item">
+            <img loading="lazy" width="1440" height="900" src="assets/images/item/cloud-bg.png" alt="Image">
         </div>
-      </article>
-      <article class="work-card">
-        <div class="work-cover c3"><span>Legacy Group · Doha</span></div>
-        <div class="work-body">
-          <h3>Legacy Group</h3>
-          <p>Production Laravel business-centre website for a Doha company — custom CMS, SEO, and inquiry &amp; lead pipelines covering furnished offices, business setup and PRO services.</p>
-          <div class="work-meta"><span><b>Year</b>2024 — Now</span><span><b>Role</b>Full-Stack Developer</span><span><b>Stack</b>Laravel · CMS · SEO</span></div>
-          <a class="btn ghost" href="https://legacygroup.qa" target="_blank" rel="noopener">Visit live site &rarr;</a>
+        <div class="bg-video video-dark">
+            <video class="video" muted="" autoplay="" loop="" playsinline="">
+                <source src="assets/images/overlay-2.mp4" type="video/mp4">
+            </video>
+            <div class="overlay-1"></div>
         </div>
-      </article>
     </div>
-    <div class="more-works">
-      <div class="mini"><i style="background:#dcf5e5"></i><h4>GIMS Institutional Website</h4><p>Education · gim.edu.pk</p></div>
-      <div class="mini"><i style="background:#e0e7ff"></i><h4>Banshee Auto Repair</h4><p>Auto Repair · Qatar coverage map, 20 service areas</p></div>
-      <div class="mini"><i style="background:#fef3c7"></i><h4>Al Rehaab Services</h4><p>Services · Custom CMS, team &amp; service pages</p></div>
-      <div class="mini"><i style="background:#fce7f3"></i><h4>Face Off Barber</h4><p>Men&rsquo;s Salon · Booking &amp; services</p></div>
+    <!-- /Body Background -->
+    <!-- Btn Open Color -->
+    <div class="tf-left-bar">
+        <a class="btn-setting-color tf-btn-icon style-2" data-bs-toggle="offcanvas" href="#settingColorMenu"><i class="icon-gear"></i></a>
     </div>
-  </div>
-</section>
-
-<!-- SERVICES -->
-<section id="services" style="padding-top:0">
-  <div class="wrap">
-    <span class="eyebrow">Services</span>
-    <h2 style="margin-top:14px">What I can build <em>for you</em></h2>
-    <div class="svc-grid">
-      <div class="svc"><div class="num">01.</div><h3>Custom Website Development</h3><p>I build fast, responsive business and corporate websites that turn visitors into customers.</p><ul><li>Laravel, Next.js, Vue.js</li><li>Responsive design</li><li>SEO-ready structure</li></ul></div>
-      <div class="svc"><div class="num">02.</div><h3>Web Application Development</h3><p>I build custom web applications, HR systems, CRMs and dashboards that automate your daily work.</p><ul><li>Laravel + MySQL</li><li>Admin panel, roles and reports</li><li>Secure and scalable code</li></ul></div>
-      <div class="svc"><div class="num">03.</div><h3>Mobile App Development</h3><p>I build Android and iOS apps from a single Flutter codebase, fast to launch and easy to maintain.</p><ul><li>Flutter + Firebase</li><li>API integration</li><li>Play Store deployment</li></ul></div>
-      <div class="svc"><div class="num">04.</div><h3>API Development &amp; Integration</h3><p>I build secure RESTful APIs and connect your systems with third-party services.</p><ul><li>Custom REST APIs</li><li>Third-party integration</li><li>Secure and documented APIs</li></ul></div>
-      <div class="svc"><div class="num">05.</div><h3>Custom CMS Development</h3><p>I build websites you can update yourself from the admin panel, with no code changes needed.</p><ul><li>Botble CMS / WordPress</li><li>Admin-editable pages</li><li>Blog, services and portfolio management</li></ul></div>
-      <div class="svc"><div class="num">06.</div><h3>Website Maintenance &amp; Support</h3><p>I keep your website secure, updated and running smoothly after launch.</p><ul><li>Bug fixing and updates</li><li>Performance and security checks</li><li>Content and feature updates</li></ul></div>
-    </div>
-  </div>
-</section>
-
-<!-- TECH STACK -->
-<section id="tech" style="padding-top:0">
-  <div class="wrap">
-    <span class="eyebrow">Tech Stack</span>
-    <h2 style="margin-top:14px">See how my expertise with these <em>tools drives better results</em></h2>
-    <div class="tech-grid">
-      <div class="tech"><h4>Laravel <span>/ PHP</span></h4><p>Primary backend — production platforms, APIs, queues &amp; scheduled jobs.</p><span class="level">Core · Daily</span></div>
-      <div class="tech"><h4>MySQL <span>/ PostgreSQL</span></h4><p>Database design, optimisation and migrations for real workloads.</p><span class="level">Core · Daily</span></div>
-      <div class="tech"><h4>JavaScript <span>/ TypeScript</span></h4><p>Modern front-ends with Next.js, React and Vue.js.</p><span class="level">Core</span></div>
-      <div class="tech"><h4>Next.js <span>/ Vue.js</span></h4><p>Fast, SEO-ready websites and interactive interfaces.</p><span class="level">Production</span></div>
-      <div class="tech"><h4>Flutter <span>/ Firebase</span></h4><p>Android &amp; iOS apps from a single codebase.</p><span class="level">Production</span></div>
-      <div class="tech"><h4>Docker <span>/ Coolify</span></h4><p>Ubuntu servers, Nginx, CI/CD and cloud deployment.</p><span class="level">Production</span></div>
-    </div>
-  </div>
-</section>
-
-<!-- TESTIMONIALS -->
-<section id="testimonials" style="padding-top:0">
-  <div class="wrap">
-    <span class="eyebrow">Testimonials</span>
-    <h2 style="margin-top:14px">Here&rsquo;s what <em>people are saying</em></h2>
-    <div class="tes-grid">
-      <div class="tes"><div class="stars">★★★★★</div><p>&ldquo;They carefully understood our vision and audience, developing a strategy that truly represented our brand. Their innovative campaigns increased engagement, and their expertise was crucial in helping us achieve meaningful results.&rdquo;</p><b>Anthony Notson</b><small>Marketing Expert</small></div>
-      <div class="tes"><div class="stars">★★★★★</div><p>&ldquo;Collaborating with the team was a fantastic experience. They grasped our goals immediately and turned them into a polished, effective solution that exceeded all expectations.&rdquo;</p><b>Charles Morganti</b><small>Echocardiographer</small></div>
-      <div class="tes"><div class="stars">★★★★★</div><p>&ldquo;Interacting with their customer service was a refreshing experience. They responded promptly, understood our concerns, and provided solutions that were both practical and thoughtful, leaving us completely satisfied.&rdquo;</p><b>Nicholas Bogdan</b><small>Brand Strategist</small></div>
-    </div>
-  </div>
-</section>
-
-<!-- FAQ -->
-<section id="faq" style="padding-top:0">
-  <div class="wrap">
-    <span class="eyebrow">FAQ</span>
-    <h2 style="margin-top:14px">Frequently asked <em>questions</em></h2>
-    <div class="faq">
-      <details><summary>What services do you offer?</summary><p>Custom websites, web applications, mobile apps, APIs and custom CMS development.</p></details>
-      <details><summary>How much does a website cost?</summary><p>It depends on the scope of the project. Share your requirements for an exact estimate. Quotes are free.</p></details>
-      <details><summary>How long does a project take?</summary><p>A website usually takes 2 to 4 weeks and a web application 4 to 12 weeks, depending on scope.</p></details>
-      <details><summary>Which technologies do you use?</summary><p>Laravel, PHP, Next.js, Vue.js, Flutter, MySQL and Firebase.</p></details>
-      <details><summary>Do you provide support after launch?</summary><p>Yes, ongoing maintenance and support are available after launch.</p></details>
-      <details><summary>How do I start a project with you?</summary><p>Contact me through the form below, email hello@sohaibkhaliq.com or phone +92 322 186 9455, share your idea, and you will get a proposal.</p></details>
-    </div>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact" style="padding-top:0">
-  <div class="wrap">
-    <div class="contact-card">
-      <span class="eyebrow" style="color:#9a9aa0">Contact</span>
-      <h2 style="margin-top:14px">Let&rsquo;s craft something <em>wild</em> together.</h2>
-      <div class="contact-grid">
-        <div>
-          <p>Have a project, idea, or challenge in mind? Let&rsquo;s work together — I&rsquo;m open to freelance projects, collaborations, and long-term partnerships.</p>
-          <div class="c-line"><small>Email</small><a href="mailto:hello@sohaibkhaliq.com">hello@sohaibkhaliq.com</a></div>
-          <div class="c-line"><small>Phone</small><a href="tel:+923221869455">+92 322 186 9455</a></div>
-          <div class="c-line"><small>Based in</small>Gujrat Institute of Management Sciences, Gujrat, Punjab, Pakistan</div>
-          <div class="c-line"><small>Elsewhere</small><a href="https://github.com/sohaibkhaliq" target="_blank" rel="noopener">GitHub</a> &nbsp;·&nbsp; <a href="https://linkedin.com/in/sohaibkhaliq510" target="_blank" rel="noopener">LinkedIn</a></div>
+    <!-- /Btn Open Color -->
+    <!-- Setting Color -->
+    <div class="offcanvas offcanvas-end offcanvas-color" id="settingColorMenu">
+        <div class="offcanvas-content">
+            <div class="canvas-header">
+                <h5 class="letter-space--2">Configuration</h5>
+                <span class="icon-close-popup" data-bs-dismiss="offcanvas">
+                    <i class="icon-close"></i>
+                </span>
+            </div>
+            <div class="canvas-body">
+                <h6 class="title">Color</h6>
+                <div class="settings-color list-choose">
+                    <button type="button" class="btn-color theme-light choose-item">
+                        <span class="color type-body-v1"></span>
+                        <span class="text">
+                            Silver Dawn
+                        </span>
+                    </button>
+                    <button type="button" class="btn-color theme-light choose-item">
+                        <span class="color type-body-v2"></span>
+                        <span class="text">
+                            Lavender Stone
+                        </span>
+                    </button>
+                    <button type="button" class="btn-color theme-light choose-item">
+                        <span class="color type-body-v3"></span>
+                        <span class="text">
+                            Ocean Brezee
+                        </span>
+                    </button>
+                    <button type="button" class="btn-color theme-dark choose-item">
+                        <span class="color type-dark-v1"></span>
+                        <span class="text">
+                            Midnight Fade
+                        </span>
+                    </button>
+                    <button type="button" class="btn-color theme-dark choose-item">
+                        <span class="color type-dark-v2"></span>
+                        <span class="text">
+                            Charcoal Mist
+                        </span>
+                    </button>
+                    <button type="button" class="btn-color theme-dark choose-item">
+                        <span class="color type-dark-v3"></span>
+                        <span class="text">
+                            Forest Shadow
+                        </span>
+                    </button>
+                </div>
+            </div>
         </div>
-        <form id="contactform" action="mailto:hello@sohaibkhaliq.com" method="post" enctype="text/plain">
-          <input type="text" name="name" placeholder="Your name" required>
-          <input type="email" name="email" placeholder="Your email" required>
-          <textarea name="message" rows="4" placeholder="Tell me about your project…" required></textarea>
-          <button type="submit">Send Message &rarr;</button>
-          <p style="font-size:13px;color:#8a8a90">Demo form — opens your email app addressed to hello@sohaibkhaliq.com.</p>
-        </form>
-      </div>
     </div>
-  </div>
-</section>
+    <!-- /Setting Color -->
 
-<footer>
-  <div class="wrap foot">
-    <span>© 2026 Sohaib Khaliq — All rights reserved.</span>
-    <span>Temporary demo preview (Isak-style layout, Sohaib&rsquo;s own content) — not the live portfolio.</span>
-  </div>
-</footer>
+    <!-- Menu Mobile -->
+    <div class="action-open-mobile d-lg-none">
+        <div class="tf-btn-icon style-2">
+            <div class="btn-mobile-menu">
+                <span></span>
+            </div>
+        </div>
+        <div class="nav-mobile-list">
+            <ul class="nav-mobile-item">
+                <li class="nav-item">
+                    <a href="#home" class="item-link scroll-link">
+                        <i class="icon icon-home"></i>
+                        <p class="tool-tip text-caption">Home</p>
+                    </a>
+                </li>
+                <li class="br-line"></li>
+                <li class="nav-item">
+                    <a href="#about" class="item-link scroll-link">
+                        <i class="icon icon-user-circle"></i>
+                        <p class="tool-tip text-caption">About</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="item-link scroll-link">
+                        <i class="icon icon-edu"></i>
+                        <p class="tool-tip text-caption">Education & Experience</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#work" class="item-link scroll-link">
+                        <i class="icon icon-high-light"></i>
+                        <p class="tool-tip text-caption">Work</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#service" class="item-link scroll-link">
+                        <i class="icon icon-service"></i>
+                        <p class="tool-tip text-caption">Services</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#tech" class="item-link scroll-link">
+                        <i class="icon icon-tech-stack"></i>
+                        <p class="tool-tip text-caption">Tech</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonial" class="item-link scroll-link">
+                        <i class="icon icon-tes"></i>
+                        <p class="tool-tip text-caption">Testimonials</p>
+                    </a>
+                </li>
+                <li class="br-line"></li>
+                <li class="nav-item">
+                    <a href="#contact" class="item-link scroll-link">
+                        <i class="icon icon-send"></i>
+                        <p class="tool-tip text-caption">Contact</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /Menu Mobile -->
 
-<script src="assets/js/main.js"></script>
+    <!-- Tool Sidebar -->
+    <div class="sidebar-tools pst-v1">
+        <div class="nav-top">
+            <div class="tf-btn-icon toggle-switch-mode">
+                <i class="icon icon-light"></i>
+            </div>
+        </div>
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a href="#home" class="item-link scroll-link">
+                    <i class="icon icon-home"></i>
+                    <p class="tool-tip text-caption">Home</p>
+                </a>
+            </li>
+            <li class="br-line"></li>
+            <li class="nav-item">
+                <a href="#about" class="item-link scroll-link">
+                    <i class="icon icon-user-circle"></i>
+                    <p class="tool-tip text-caption">About</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#education" class="item-link scroll-link">
+                    <i class="icon icon-edu"></i>
+                    <p class="tool-tip text-caption">Education</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#work" class="item-link scroll-link">
+                    <i class="icon icon-high-light"></i>
+                    <p class="tool-tip text-caption">Work</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#service" class="item-link scroll-link">
+                    <i class="icon icon-service"></i>
+                    <p class="tool-tip text-caption">Services</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#tech" class="item-link scroll-link">
+                    <i class="icon icon-tech-stack"></i>
+                    <p class="tool-tip text-caption">Tech</p>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#testimonial" class="item-link scroll-link">
+                    <i class="icon icon-tes"></i>
+                    <p class="tool-tip text-caption">Testimonials</p>
+                </a>
+            </li>
+            <li class="br-line"></li>
+            <li class="nav-item">
+                <a href="#contact" class="item-link scroll-link">
+                    <i class="icon icon-send"></i>
+                    <p class="tool-tip text-caption">Contact</p>
+                </a>
+            </li>
+        </ul>
+        <div class="nav-bottom">
+            <a href="#" class="tf-btn-icon go-top">
+                <i class="icon icon-arrow-top"></i>
+            </a>
+        </div>
+    </div>
+    <!-- /Tool Sidebar -->
+
+    <div class="overlay-pop"></div>
+    <main id="wrapper">
+
+        <!-- Time Local -->
+        <div class="tf-header-wrap">
+            <a href="index.html" class="logo-site d-lg-none">
+                <img class="image-switch" data-light="assets/images/logo/logo.svg" data-dark="assets/images/logo/logo-2.svg" loading="lazy" width="40"
+                    height="40" src="assets/images/logo/logo.svg" alt="Image">
+            </a>
+            <div class="left">
+                <div class="time-local text-body-3">
+                    <p class="date"></p>
+                    <p class="clock"></p>
+                </div>
+
+            </div>
+        </div>
+        <!-- /Time Local -->
+
+        <!-- User Sidebar -->
+        <div class="sidebar-user">
+            <div class="wrap">
+                <div class="user-image">
+                    <div class="image">
+                        <img loading="lazy" width="468" height="856" src="assets/images/avatar/avatar.jpg" alt="Image">
+                    </div>
+                    <div class="meta-left d-none d-sm-block">
+                        <div class="bg-item-svg">
+                            <img class="image-switch" data-dark="assets/images/item/vector-user_dark.svg" width="32" height="227"
+                                src="assets/images/item/vector-user.svg" alt="Image">
+                        </div>
+                        <p class="avaiable-dot vertical text-body-3 text-black-72 fw-medium">
+                            <span class="text-vertical">Available for Work</span>
+                            <span class="dot"></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="user-logo d-none d-lg-block">
+                    <img class="image-switch" data-light="assets/images/logo/logo.svg" data-dark="assets/images/logo/logo-2.svg" loading="lazy"
+                        width="40" height="40" src="assets/images/logo/logo.svg" alt="Image">
+                </div>
+                <ul class="tf-social-icon-2 user-social d-grid">
+                    <li><a href="#"><i class="icon icon-x"></i></a></li>
+                    <li><a href="#"><i class="icon icon-linkin"></i></a></li>
+                    <li><a href="#">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g opacity="0.72">
+                                    <path opacity="0.2"
+                                        d="M1.51502 11.2356L1.55752 4.87313C1.56502 3.72125 2.37065 2.73375 3.48252 2.51375L9.6269 1.29563C11.1031 1.00313 12.4738 2.15813 12.4638 3.6875L12.4213 10.0513C12.4131 11.2025 11.6075 12.1894 10.4956 12.41L4.35127 13.6281C2.87502 13.9206 1.50502 12.7656 1.51502 11.2356Z"
+                                        fill="black" />
+                                    <path opacity="0.5"
+                                        d="M4.52563 13.7744L4.56813 7.41062C4.575 6.25999 5.38125 5.27312 6.49313 5.05249L12.6375 3.83499C14.1138 3.54249 15.4844 4.69749 15.4744 6.22687L15.4319 12.5906C15.4244 13.7419 14.6188 14.7287 13.5069 14.9494L7.3625 16.1675C5.88625 16.46 4.51563 15.305 4.52563 13.7756V13.7744Z"
+                                        fill="black" />
+                                    <path opacity="0.8"
+                                        d="M7.53625 16.3125L7.57875 9.94875C7.58625 8.79687 8.39187 7.81062 9.50375 7.59L15.6481 6.37187C17.1244 6.07937 18.495 7.23437 18.485 8.76375L18.4425 15.1275C18.435 16.2794 17.6294 17.2662 16.5175 17.4862L10.3731 18.7044C8.89687 18.9969 7.52625 17.8419 7.53625 16.3125Z"
+                                        fill="black" />
+                                </g>
+                            </svg>
+                        </a></li>
+                </ul>
+                <div class="user-info">
+                    <p class="avaiable-dot text-body-3 fw-medium d-sm-none">
+                        <span class="dot"></span>
+                        <span>Available for Work</span>
+                    </p>
+                    <h5 class="greeting letter-space--2 text-white animationtext clip">
+                        Hey, I’m
+                        <span class="cd-words-wrapper">
+                            <span class="item-text is-visible">Sohaib</span>
+                            <span class="item-text is-hidden">Full-Stack Developer</span>
+                            <span class="item-text is-hidden">Laravel Developer</span>
+                        </span>
+                    </h5>
+                    <p class="introduce text-white-56 letter-space--05 text-body-3">
+                        I build custom software and websites that turn your ideas into fast, reliable products — based in Gujrat, Pakistan.
+                    </p>
+                    <div class="br-line"></div>
+                    <div class="action-group">
+                        <a href="#contact" class="tf-btn-action">
+                            <span class="ic-wrap">
+                                <i class="icon icon-arrow-right-top"></i>
+                            </span>
+                            <span class="text text-body-3 letter-space--05 fw-medium">
+                                Let’s talk
+                            </span>
+                            <span class="ic-wrap">
+                                <i class="icon icon-arrow-right-top"></i>
+                            </span>
+                        </a>
+                        <a href="#work" class="action-down">
+                            <i class="icon icon-download"></i>
+                            <span class="text-body-3">
+                                View my work
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /User Sidebar -->
+
+        <div class="main-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-xl-8 ms-auto">
+                        <div class="wrap-container">
+                            <!-- Intro -->
+                            <div id="home" class="section-intro type-3 flat-spacing">
+                                <div class="intro-author">
+                                    <div class="author-image">
+                                        <img loading="lazy" width="23" height="31" src="assets/images/avatar/avatar.jpg" alt="Image">
+                                    </div>
+                                    <div class="author-info letter-space--05">
+                                        <p class="info_name text-black">Sohaib Khaliq</p>
+                                        <p class="info_duty text-black-50 text-body-3">Software Engineer — Full-Stack Developer
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                                <h1 class="intro-title letter-space--2 split-text effect-blur-fade">
+                                    Start building
+                                    <span>websites</span><br>
+                                    people remember
+                                </h1>
+                                <div class="counter-image-item">
+                                    <div class="box-counter">
+                                        <div class="wg-counter">
+                                            <p class="counter h1 d-flex font-2 letter-space--2 text-black-72">
+                                                <span class="number" data-speed="1000" data-to="2">0</span>
+                                                +
+                                            </p>
+                                            <p class="text text-black-56 text-body-3">
+                                                Year of experience
+                                            </p>
+                                        </div>
+                                        <div class="wg-counter">
+                                            <p class="counter h1 d-flex font-2 letter-space--2 text-black-72">
+                                                <span class="number" data-speed="1000" data-to="7">0</span>
+                                                x
+                                            </p>
+                                            <p class="text text-black-56 text-body-3">
+                                                Production Projects
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="image-item">
+                                        <div class="image">
+                                            <img class="image-switch" data-dark="assets/images/logo/logo-3d_dark.png" loading="lazy" width="543"
+                                                height="403" src="assets/images/logo/logo-3d.png" alt="Image">
+                                        </div>
+                                        <div class="wg-curve-text style-2">
+                                            <div class="icon">
+                                                <svg width="66" height="77" viewBox="0 0 66 77" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M36.0087 0.873025C43.5379 -1.39092 54.7025 10.7245 61.1553 28.2867L61.4572 29.1225C67.684 46.6467 66.8028 62.8769 59.3914 65.6003L59.0353 65.7187C57.4604 66.1922 55.7272 66.0345 53.9106 65.3315C52.9107 67.1734 51.5757 68.4719 49.9077 69.0848L49.5517 69.2032C47.8627 69.7111 45.9915 69.494 44.031 68.6556C43.0123 70.6987 41.611 72.1331 39.831 72.7872L39.475 72.9056C37.9 73.3792 36.1669 73.2214 34.3503 72.5184C33.3504 74.3604 32.0154 75.6588 30.3474 76.2717L29.9913 76.3901C22.4621 78.6546 11.2976 66.539 4.84471 48.9764C-1.71056 31.1351 -0.920706 14.4292 6.60864 11.6627L6.96468 11.5444C8.53922 11.071 10.2719 11.2285 12.0881 11.931C13.088 10.089 14.4242 8.79122 16.0923 8.17825L16.4483 8.05992C18.1368 7.55221 20.0078 7.76906 21.9678 8.60692C22.9864 6.56371 24.3889 5.12997 26.169 4.47585L26.525 4.35752C28.0993 3.88414 29.8323 4.04093 31.6481 4.74323C32.648 2.90144 33.9848 1.6043 35.6526 0.991355L36.0087 0.873025ZM35.8705 1.58443C34.3995 2.12506 33.1749 3.2743 32.2327 4.98624C38.9691 7.99365 46.7122 18.2732 51.6716 31.7712L51.9735 32.607C56.6603 45.7969 57.3186 58.2527 54.1982 64.7691C56.0249 65.4639 57.7021 65.5477 59.1734 65.0073C60.8518 64.3905 62.2076 62.9806 63.1915 60.8478C64.1769 58.7115 64.7669 55.8924 64.9241 52.5664C65.2383 45.9169 63.8179 37.3655 60.5622 28.5046C57.3065 19.6437 52.8526 12.2069 48.308 7.34263C46.0347 4.90959 43.7599 3.14315 41.6258 2.153C39.4951 1.16454 37.5489 0.967816 35.8705 1.58443ZM6.82655 12.2558C5.14794 12.8726 3.79152 14.2824 2.80758 16.4156C1.82222 18.552 1.23308 21.3706 1.07586 24.6967C0.761621 31.3462 2.18208 39.8975 5.43778 48.7585C8.69348 57.6194 13.1474 65.0562 17.692 69.9204C19.9653 72.3535 22.2392 74.1202 24.3733 75.1104C26.5043 76.0991 28.4509 76.2954 30.1295 75.6787C31.6006 75.1381 32.8226 73.9877 33.7648 72.2757C27.0291 69.2667 19.2871 58.9881 14.3283 45.4919C9.36933 31.9951 8.61515 19.1484 11.8009 12.4943C9.9744 11.7996 8.29774 11.7153 6.82655 12.2558ZM36.5261 62.8777C36.3921 66.5095 35.7585 69.6155 34.6378 71.956C36.4646 72.6508 38.1418 72.7347 39.6131 72.1942C41.1952 71.6128 42.4898 70.3262 43.4573 68.394C41.2039 67.3015 38.8467 65.4136 36.5261 62.8777ZM46.0097 59.3932C45.883 62.8289 45.3095 65.794 44.2991 68.0858C46.2875 68.9319 48.1076 69.073 49.6898 68.4918C51.1609 67.9512 52.3842 66.8013 53.3264 65.0894C50.9571 64.0312 48.463 62.0742 46.0097 59.3932ZM31.8516 5.74426C30.8663 7.88057 30.277 10.6994 30.1198 14.0253C30.1036 14.3692 30.0931 14.7181 30.0861 15.0719C34.3893 19.9995 38.5256 27.1199 41.5949 35.4736L41.8968 36.3094C44.7598 44.3666 46.1188 52.1502 46.0327 58.4733C46.2671 58.7384 46.501 58.9975 46.736 59.2491C49.0092 61.682 51.2833 63.4488 53.4173 64.439C53.4825 64.4693 53.5487 64.4973 53.6136 64.5261C53.6446 64.4618 53.6776 64.3979 53.7079 64.3323C54.6932 62.1959 55.2833 59.377 55.4405 56.0508C55.7547 49.4014 54.3343 40.8499 51.0786 31.9891C47.8229 23.1282 43.3689 15.6914 38.8243 10.8271C36.5511 8.39407 34.2762 6.62765 32.1421 5.63749C32.0763 5.60697 32.01 5.57889 31.9445 5.54988C31.9136 5.61406 31.8818 5.6787 31.8516 5.74426ZM12.2912 12.9311C11.3059 15.0675 10.7167 17.8862 10.5595 21.2122C10.2453 27.8617 11.6657 36.4131 14.9214 45.274C18.1771 54.1349 22.6311 61.5717 27.1757 66.436C29.4488 68.8689 31.7229 70.6357 33.8569 71.6259C33.9222 71.6562 33.9884 71.6841 34.0533 71.713C34.0843 71.6487 34.1172 71.5848 34.1475 71.5192C35.1329 69.3828 35.7229 66.5639 35.8802 63.2377C35.8964 62.8937 35.9057 62.5446 35.9126 62.1906C31.6099 57.263 27.4742 50.1426 24.4051 41.7895C21.3356 33.4353 19.8764 25.33 19.9657 18.7883C19.7318 18.5237 19.4985 18.265 19.264 18.014C16.9907 15.5809 14.7159 13.8146 12.5818 12.8244C12.516 12.7939 12.4496 12.7658 12.3842 12.7368C12.3532 12.801 12.3215 12.8656 12.2912 12.9311ZM22.2739 9.44015C21.3457 11.5497 20.7883 14.2922 20.6362 17.5098C20.62 17.8537 20.6094 18.2026 20.6025 18.5564C24.9056 23.484 29.042 30.6044 32.1113 38.9581L32.4132 39.7939C35.276 47.8507 36.6347 55.6339 36.5488 61.9569C36.7833 62.2222 37.0172 62.4818 37.2524 62.7336C39.4513 65.0871 41.6518 66.8155 43.7248 67.8223C44.653 65.7128 45.2117 62.9708 45.3638 59.7532C45.38 59.4093 45.3893 59.0601 45.3963 58.7061C41.0935 53.7785 36.9578 46.6581 33.8887 38.305C30.8192 29.9509 29.36 21.8455 29.4493 15.3038C29.2155 15.0393 28.9821 14.7805 28.7476 14.5295C26.5483 12.1756 24.3473 10.4468 22.2739 9.44015ZM20.5948 19.5153C20.6185 25.8361 22.0611 33.5779 24.9981 41.5716C27.935 49.5648 31.8472 56.3989 35.9212 61.2314C35.8973 54.9107 34.4551 47.1693 31.5182 39.176C28.5812 31.1824 24.669 24.3478 20.5948 19.5153ZM30.0776 16.0311C30.1013 22.3518 31.5448 30.0936 34.4818 38.0871C37.4187 46.0804 41.3317 52.914 45.4057 57.7465C45.3818 51.426 43.9387 43.6847 41.0019 35.6915C38.0648 27.6978 34.1518 20.8637 30.0776 16.0311ZM16.3102 8.77132C14.8391 9.31192 13.6146 10.4612 12.6723 12.1731C15.042 13.2311 17.5356 15.1889 19.9894 17.8703C20.1161 14.4345 20.6905 11.4691 21.7009 9.17733C19.7126 8.33121 17.8924 8.19006 16.3102 8.77132ZM26.3869 5.06892C24.8049 5.65025 23.5086 6.93577 22.5411 8.86757C24.7951 9.95982 27.1517 11.8492 29.473 14.3858C29.6069 10.7538 30.2415 7.64767 31.3622 5.30711C29.5355 4.61221 27.8582 4.52839 26.3869 5.06892Z"
+                                                        fill="black" />
+                                                </svg>
+                                            </div>
+                                            <div class="text-rotate">
+                                                <div class="circle">
+                                                    <div class="text" id="circularText"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="intro-client letter-space--05 text-body-3">
+                                    Our clients (2015-25©)
+                                </p>
+
+                                <div class="infiniteSlide-brand">
+                                    <div class="infiniteSlide" data-clone="3">
+                                        <!-- Clone 1 -->
+                                        <div class="image-brand">
+                                            <img class="image-switch" data-dark="assets/images/brand/brand-1_dark.svg" width="132" height="24"
+                                                src="assets/images/brand/brand-1.svg" alt="Image">
+                                        </div>
+                                        <div class="image-brand">
+                                            <img class="image-switch" data-dark="assets/images/brand/brand-2_dark.svg" width="122" height="24"
+                                                src="assets/images/brand/brand-2.svg" alt="Image">
+                                        </div>
+                                        <div class="image-brand">
+                                            <img class="image-switch" data-dark="assets/images/brand/brand-3_dark.svg" width="125" height="24"
+                                                src="assets/images/brand/brand-3.svg" alt="Image">
+                                        </div>
+                                        <div class="image-brand">
+                                            <img class="image-switch" data-dark="assets/images/brand/brand-4_dark.svg" width="112" height="24"
+                                                src="assets/images/brand/brand-4.svg" alt="Image">
+                                        </div>
+                                        <!-- Clone 2 -->
+                                        <div class="image-brand">
+                                            <img class="image-switch" data-dark="assets/images/brand/brand-1_dark.svg" width="132" height="24"
+                                                src="assets/images/brand/brand-1.svg" alt="Image">
+                                        </div>
+                                        <div class="image-brand">
+                                            <img class="image-switch" data-dark="assets/images/brand/brand-2_dark.svg" width="122" height="24"
+                                                src="assets/images/brand/brand-2.svg" alt="Image">
+                                        </div>
+                                        <div class="image-brand">
+                                            <img class="image-switch" data-dark="assets/images/brand/brand-3_dark.svg" width="125" height="24"
+                                                src="assets/images/brand/brand-3.svg" alt="Image">
+                                        </div>
+                                        <div class="image-brand">
+                                            <img class="image-switch" data-dark="assets/images/brand/brand-4_dark.svg" width="112" height="24"
+                                                src="assets/images/brand/brand-4.svg" alt="Image">
+                                        </div>
+                                        <!-- Clone 3 -->
+                                        <div class="image-brand">
+                                            <img class="image-switch" data-dark="assets/images/brand/brand-1_dark.svg" width="132" height="24"
+                                                src="assets/images/brand/brand-1.svg" alt="Image">
+                                        </div>
+                                        <div class="image-brand">
+                                            <img class="image-switch" data-dark="assets/images/brand/brand-2_dark.svg" width="122" height="24"
+                                                src="assets/images/brand/brand-2.svg" alt="Image">
+                                        </div>
+                                        <div class="image-brand">
+                                            <img class="image-switch" data-dark="assets/images/brand/brand-3_dark.svg" width="125" height="24"
+                                                src="assets/images/brand/brand-3.svg" alt="Image">
+                                        </div>
+                                        <div class="image-brand">
+                                            <img class="image-switch" data-dark="assets/images/brand/brand-4_dark.svg" width="112" height="24"
+                                                src="assets/images/brand/brand-4.svg" alt="Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Intro -->
+
+                            <!-- About -->
+                            <div id="about" class="section-about flat-spacing">
+                                <div class="sect-tag text-caption fw-medium effectFade fadeUp no-div">
+                                    <i class="icon icon-user-circle"></i>
+                                    About
+                                </div>
+                                <h4 class="s-title letter-space--2 text-black-72 split-text effect-blur-fade">
+                                    Building reliable software with<br class="d-none d-lg-block"> clean, tested code
+                                </h4>
+                                <p class="s-desc text-black-56 scrolling-effect effectTop">
+                                    I build reliable software and web applications using clean, tested code — starting with your idea and requirements, then turning them into fast, secure and easy-to-use products that work well for you, daily.<br><br>Driven by unique thinking, I deliver creative, high-quality solutions that simplify complexity.
+                                </p>
+                                <ul class="award-list">
+                                    <li class="award-item hover-cursor-img">
+                                        <div class="left">
+                                            <h6 class="award_name letter-space--2 text-black-72">Workload Automation</h6>
+                                            <p class="award_desc text-black-56">GIMS HRMS</p>
+                                        </div>
+                                        <h6 class="award_year text-black-72">
+                                            2024
+                                        </h6>
+                                        <div class="award_img hover-image">
+                                            <img loading="lazy" width="158" height="224" src="assets/images/section/award-1.jpg" alt="Image">
+                                        </div>
+                                    </li>
+                                    <li class="award-item hover-cursor-img">
+                                        <div class="left">
+                                            <h6 class="award_name letter-space--2 text-black-72">Production Projects</h6>
+                                            <p class="award_desc text-black-56">7 Live Platforms</p>
+                                        </div>
+                                        <h6 class="award_year text-black-72">
+                                            2024
+                                        </h6>
+                                        <div class="award_img hover-image">
+                                            <img loading="lazy" width="158" height="224" src="assets/images/section/award-2.jpg" alt="Image">
+                                        </div>
+                                    </li>
+                                    <li class="award-item hover-cursor-img">
+                                        <div class="left">
+                                            <h6 class="award_name letter-space--2 text-black-72">Trevora Media Contract
+                                            </h6>
+                                            <p class="award_desc text-black-56">Qatar Agency</p>
+                                        </div>
+                                        <h6 class="award_year text-black-72">
+                                            Ongoing
+                                        </h6>
+                                        <div class="award_img hover-image">
+                                            <img loading="lazy" width="158" height="224" src="assets/images/section/award-3.jpg" alt="Image">
+                                        </div>
+                                    </li>
+                                    <li class="award-item hover-cursor-img">
+                                        <div class="left">
+                                            <h6 class="award_name letter-space--2 text-black-72">BS Computer Science</h6>
+                                            <p class="award_desc text-black-56">Arid University</p>
+                                        </div>
+                                        <h6 class="award_year text-black-72">
+                                            2024
+                                        </h6>
+                                        <div class="award_img hover-image">
+                                            <img loading="lazy" width="158" height="224" src="assets/images/section/award-4.jpg" alt="Image">
+                                        </div>
+                                    </li>
+                                    <li class="award-item hover-cursor-img">
+                                        <div class="left">
+                                            <h6 class="award_name letter-space--2 text-black-72">CS Lecturer &amp; Mentor</h6>
+                                            <p class="award_desc text-black-56">GIMS · NAVTTC</p>
+                                        </div>
+                                        <h6 class="award_year text-black-72">
+                                            2024
+                                        </h6>
+                                        <div class="award_img hover-image">
+                                            <img loading="lazy" width="158" height="224" src="assets/images/section/award-5.jpg" alt="Image">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /About -->
+
+                            <!-- Education & Experience -->
+                            <div id="education" class="section-education-experience flat-spacing">
+                                <div class="sect-tag text-caption fw-medium effectFade fadeUp no-div">
+                                    <i class="icon icon-edu"></i>
+                                    Education & Experience
+                                </div>
+                                <div class="timeline scroll-down">
+                                    <div class="timeline-line">
+                                        <div class="prg-line"></div>
+                                    </div>
+                                    <!-- Item 1 -->
+                                    <div class="timeline-item effectFade fadeUp no-div">
+                                        <p class="timeline-date text-black-56">May 2024 - Now</p>
+                                        <div class="timeline-dot"></div>
+                                        <div class="timeline-content">
+                                            <div class="icon">
+                                                <img class="image-switch" data-dark="assets/images/logo/logo-4.svg" loading="lazy" width="32"
+                                                    height="32" src="assets/images/logo/logo-3.svg" alt="Image">
+                                            </div>
+                                            <p class="timeline-role fw-medium text-black-72">Software Engineer at<br>GIMS Arid University</p>
+                                            <p class="timeline-desc text-body-3 text-black-56">
+                                                Architected enterprise academic platforms in Laravel and MySQL across HR, attendance and e-learning; designed RESTful APIs and automated data pipelines. Reduced manual administrative workload by over 40% through intelligent automation. Mentored junior developers and CS students in Git, cloud deployment and software engineering best practices.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- Item 2 -->
+                                    <div class="timeline-item effectFade fadeUp no-div">
+                                        <p class="timeline-date text-black-56">Ongoing</p>
+                                        <div class="timeline-dot"></div>
+                                        <div class="timeline-content">
+                                            <div class="icon">
+                                                <img class="image-switch" data-dark="assets/images/item/edu-2_dark.svg" width="29" height="32"
+                                                    src="assets/images/item/edu-2.svg" alt="Image">
+                                            </div>
+                                            <p class="timeline-role fw-medium text-black-72">Contract Engagement —<br>Trevora Media</p>
+                                            <p class="timeline-desc text-body-3 text-black-56">
+                                                Handling all development work for Trevora Media, a marketing agency in Qatar — custom software development, web application development, websites and WordPress.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <!-- Item 3 -->
+                                    <div class="timeline-item effectFade fadeUp no-div">
+                                        <p class="timeline-date text-black-56">2020 - 2024</p>
+                                        <div class="timeline-dot"></div>
+                                        <div class="timeline-content">
+                                            <div class="icon">
+                                                <img class="image-switch" data-dark="assets/images/item/edu-3_dark.svg" width="120" height="32"
+                                                    src="assets/images/item/edu-3.svg" alt="Image">
+                                            </div>
+                                            <p class="timeline-role fw-medium text-black-72">BS Computer Science —<br>PMAS Arid Agriculture University</p>
+                                            <p class="timeline-desc text-body-3 text-black-56">
+                                                CGPA 3.01, Rawalpindi. Also served as Graphic Designer in the GIMS Student Society.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Education & Experience -->
+
+                            <!-- Work Highlight -->
+                            <div id="work" class="section-work flat-spacing">
+                                <div class="sect-tag text-caption fw-medium">
+                                    <i class="icon icon-high-light"></i>
+                                    Work Highlights
+                                </div>
+                                <div class="work-list element-sticky">
+                                    <div class="sticky-item">
+                                        <div class="wg-work">
+                                            <div class="work-image">
+                                                <img loading="lazy" width="700" height="427" src="assets/images/section/work-1.jpg" alt="Image">
+                                            </div>
+                                            <div class="wrap">
+                                                <div class="work-content">
+                                                    <div class="w-image">
+                                                        <img loading="lazy" width="468" height="856" src="assets/images/section/work-1.jpg"
+                                                            alt="Image">
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="content-top">
+                                                            <div class="w-logo">
+                                                                <img loading="lazy" width="40" height="40" src="assets/images/logo/logo-2.svg"
+                                                                    alt="Image">
+                                                            </div>
+                                                            <h4 class="w-title letter-space--2 text-white-72">Trevora Media</h4>
+                                                            <p class="w-desc text-white-56 text-body-3">
+                                                                Production Laravel website for a data-driven digital marketing agency in Qatar — custom CMS, SEO, and lead pipelines that turn visitors into clients. Plus Trevora WorkOS, a complete CRM for the agency.
+                                                            </p>
+                                                            <div class="w-highlight">
+                                                                <div class="box-high">
+                                                                    <p class="text-body-3 text-white-56">
+                                                                        Year
+                                                                    </p>
+                                                                    <p class="text-body-1 text-white-72">Ongoing</p>
+                                                                </div>
+                                                                <div class="box-high">
+                                                                    <p class="text-body-3 text-white-56">
+                                                                        Role
+                                                                    </p>
+                                                                    <p class="text-body-1 text-white-72">
+                                                                        Full-Stack Developer
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="w-tag-list">
+                                                                <div class="tag">
+                                                                    <span class="text-body-3 fw-medium text-white-72">Laravel</span>
+                                                                </div>
+                                                                <div class="tag">
+                                                                    <span class="text-body-3 fw-medium text-white-72">CMS</span>
+                                                                </div>
+                                                                <div class="tag">
+                                                                    <span class="text-body-3 fw-medium text-white-72">MySQL</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="content-bottom">
+                                                            <div class="br-line"></div>
+                                                            <div class="group-action">
+                                                                <a href="#" class="tf-btn-action style-white">
+                                                                    <span class="ic-wrap">
+                                                                        <i class="icon icon-arrow-right-top"></i>
+                                                                    </span>
+                                                                    <span class="text text-body-3 letter-space--05 fw-medium">
+                                                                        Let’s talk
+                                                                    </span>
+                                                                    <span class="ic-wrap">
+                                                                        <i class="icon icon-arrow-right-top"></i>
+                                                                    </span>
+                                                                </a>
+                                                                <p class="text-white-40">
+                                                                    <span class="text-white-72">01</span> / 03
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sticky-item">
+                                        <div class="wg-work">
+                                            <div class="work-image">
+                                                <img loading="lazy" width="700" height="427" src="assets/images/section/work-2.jpg" alt="Image">
+                                            </div>
+                                            <div class="wrap">
+                                                <div class="work-content">
+                                                    <div class="w-image">
+                                                        <img loading="lazy" width="468" height="856" src="assets/images/section/work-2.jpg"
+                                                            alt="Image">
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="content-top">
+                                                            <div class="w-logo">
+                                                                <img loading="lazy" width="40" height="40" src="assets/images/logo/logo-2.svg"
+                                                                    alt="Image">
+                                                            </div>
+                                                            <h4 class="w-title letter-space--2 text-white-72">HRMS — Human Resource Management</h4>
+                                                            <p class="w-desc text-white-56 text-body-3">
+                                                                Academic platforms and HRMS with biometric attendance integration — covering HR, attendance and e-learning for the institute, cutting manual admin work by over 40%.
+                                                            </p>
+                                                            <div class="w-highlight">
+                                                                <div class="box-high">
+                                                                    <p class="text-body-3 text-white-56">
+                                                                        Year
+                                                                    </p>
+                                                                    <p class="text-body-1 text-white-72">
+                                                                        2024
+                                                                    </p>
+                                                                </div>
+                                                                <div class="box-high">
+                                                                    <p class="text-body-3 text-white-56">
+                                                                        Role
+                                                                    </p>
+                                                                    <p class="text-body-1 text-white-72">
+                                                                        Software Engineer
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="w-tag-list">
+                                                                <div class="tag">
+                                                                    <span class="text-body-3 fw-medium text-white-72">Laravel</span>
+                                                                </div>
+                                                                <div class="tag">
+                                                                    <span class="text-body-3 fw-medium text-white-72">MySQL</span>
+                                                                </div>
+                                                                <div class="tag">
+                                                                    <span class="text-body-3 fw-medium text-white-72">APIs</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="content-bottom">
+                                                            <div class="br-line"></div>
+                                                            <div class="group-action">
+                                                                <a href="#" class="tf-btn-action style-white">
+                                                                    <span class="ic-wrap">
+                                                                        <i class="icon icon-arrow-right-top"></i>
+                                                                    </span>
+                                                                    <span class="text text-body-3 letter-space--05 fw-medium">
+                                                                        Let’s talk
+                                                                    </span>
+                                                                    <span class="ic-wrap">
+                                                                        <i class="icon icon-arrow-right-top"></i>
+                                                                    </span>
+                                                                </a>
+                                                                <p class="text-white-40">
+                                                                    <span class="text-white-72">02</span> / 03
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sticky-item">
+                                        <div class="wg-work">
+                                            <div class="work-image">
+                                                <img loading="lazy" width="700" height="427" src="assets/images/section/work-3.jpg" alt="Image">
+                                            </div>
+                                            <div class="wrap">
+                                                <div class="work-content">
+                                                    <div class="w-image">
+                                                        <img loading="lazy" width="468" height="856" src="assets/images/section/work-3.jpg"
+                                                            alt="Image">
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="content-top">
+                                                            <div class="w-logo">
+                                                                <img loading="lazy" width="40" height="40" src="assets/images/logo/logo-2.svg"
+                                                                    alt="Image">
+                                                            </div>
+                                                            <h4 class="w-title letter-space--2 text-white-72">Legacy Group</h4>
+                                                            <p class="w-desc text-white-56 text-body-3">
+                                                                Production Laravel business-centre website for a Doha company — custom CMS, SEO, and inquiry &amp; lead pipelines covering furnished offices, business setup and PRO services.
+                                                            </p>
+                                                            <div class="w-highlight">
+                                                                <div class="box-high">
+                                                                    <p class="text-body-3 text-white-56">
+                                                                        Year
+                                                                    </p>
+                                                                    <p class="text-body-1 text-white-72">
+                                                                        2024
+                                                                    </p>
+                                                                </div>
+                                                                <div class="box-high">
+                                                                    <p class="text-body-3 text-white-56">
+                                                                        Role
+                                                                    </p>
+                                                                    <p class="text-body-1 text-white-72">
+                                                                        Full-Stack Developer
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <div class="w-tag-list">
+                                                                <div class="tag">
+                                                                    <span class="text-body-3 fw-medium text-white-72">Laravel</span>
+                                                                </div>
+                                                                <div class="tag">
+                                                                    <span class="text-body-3 fw-medium text-white-72">CMS</span>
+                                                                </div>
+                                                                <div class="tag">
+                                                                    <span class="text-body-3 fw-medium text-white-72">SEO</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="content-bottom">
+                                                            <div class="br-line"></div>
+                                                            <div class="group-action">
+                                                                <a href="#" class="tf-btn-action style-white">
+                                                                    <span class="ic-wrap">
+                                                                        <i class="icon icon-arrow-right-top"></i>
+                                                                    </span>
+                                                                    <span class="text text-body-3 letter-space--05 fw-medium">
+                                                                        Let’s talk
+                                                                    </span>
+                                                                    <span class="ic-wrap">
+                                                                        <i class="icon icon-arrow-right-top"></i>
+                                                                    </span>
+                                                                </a>
+                                                                <p class="text-white-40">
+                                                                    <span class="text-white-72">03</span> / 03
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Work Highlight -->
+
+                            <!-- Service -->
+                            <div id="service" class="section-service flat-spacing">
+                                <div class="sect-tag text-caption fw-medium effectFade fadeUp no-div mb-0">
+                                    <i class="icon icon-service"></i>
+                                    Services
+                                </div>
+                                <div class="" id="accordion-service">
+                                    <div class="service-accordion_item scrolling-effect effectBottom" role="presentation">
+                                        <div class="accordion-action" data-bs-target="#service-1" role="button" data-bs-toggle="collapse"
+                                            aria-controls="service-1" aria-expanded="true">
+                                            <h4 class="text letter-space--2 text-black-72">Custom Website Development</h4>
+                                            <div class="ic-wrap">
+                                                <span class="ic-accordion-custom"></span>
+                                            </div>
+                                        </div>
+                                        <div id="service-1" class="collapse show" data-bs-parent="#accordion-service">
+                                            <div class="accordion-content">
+                                                <div class="tf-grid-layout sm-col-2">
+                                                    <div class="service-image">
+                                                        <div class="wrap_image">
+                                                            <img width="340" height="206" src="assets/images/section/service-1.jpg" alt="Image">
+                                                        </div>
+                                                    </div>
+                                                    <div class="service-image">
+                                                        <div class="wrap_image">
+                                                            <img width="340" height="206" src="assets/images/section/service-2.jpg" alt="Image">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="service-tag">
+                                                    <a href="#" class="tag-item text-body-3 fw-medium text-black-72 link">
+                                                        Laravel, Next.js, Vue.js
+                                                    </a>
+                                                    <a href="#" class="tag-item text-body-3 fw-medium text-black-72 link">
+                                                        Responsive design
+                                                    </a>
+                                                    <a href="#" class="tag-item text-body-3 fw-medium text-black-72 link">
+                                                        SEO-ready structure
+                                                    </a>
+                                                </div>
+                                                <p class="service-desc text-black-56">
+                                                    I build fast, responsive business and corporate websites that turn visitors into customers.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="br-line scrolling-effect effectBottom"></div>
+                                    <div class="service-accordion_item scrolling-effect effectBottom" role="presentation">
+                                        <div class="accordion-action collapsed" data-bs-target="#service-2" role="button" data-bs-toggle="collapse"
+                                            aria-controls="service-2" aria-expanded="true">
+                                            <h4 class="text letter-space--2 text-black-72">Web Application Development</h4>
+                                            <div class="ic-wrap">
+                                                <span class="ic-accordion-custom"></span>
+                                            </div>
+                                        </div>
+                                        <div id="service-2" class="collapse" data-bs-parent="#accordion-service">
+                                            <div class="accordion-content">
+                                                <div class="tf-grid-layout sm-col-2">
+                                                    <div class="service-image">
+                                                        <div class="wrap_image">
+                                                            <img width="340" height="206" src="assets/images/section/service-3.jpg" alt="Image">
+                                                        </div>
+                                                    </div>
+                                                    <div class="service-image">
+                                                        <div class="wrap_image">
+                                                            <img width="340" height="206" src="assets/images/section/service-4.jpg" alt="Image">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="service-tag">
+                                                    <a href="#" class="tag-item text-body-3 fw-medium text-black-72 link">
+                                                        Laravel + MySQL
+                                                    </a>
+                                                    <a href="#" class="tag-item text-body-3 fw-medium text-black-72 link">
+                                                        Admin panel, roles and reports
+                                                    </a>
+                                                    <a href="#" class="tag-item text-body-3 fw-medium text-black-72 link">
+                                                        Secure and scalable code
+                                                    </a>
+                                                </div>
+                                                <p class="service-desc text-black-56">
+                                                    I build custom web applications, HR systems, CRMs and dashboards that automate your daily work.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="br-line scrolling-effect effectBottom"></div>
+                                    <div class="service-accordion_item scrolling-effect effectBottom" role="presentation">
+                                        <div class="accordion-action collapsed" data-bs-target="#service-3" role="button" data-bs-toggle="collapse"
+                                            aria-controls="service-3" aria-expanded="true">
+                                            <h4 class="text letter-space--2 text-black-72">Mobile App Development</h4>
+                                            <div class="ic-wrap">
+                                                <span class="ic-accordion-custom"></span>
+                                            </div>
+                                        </div>
+                                        <div id="service-3" class="collapse" data-bs-parent="#accordion-service">
+                                            <div class="accordion-content">
+                                                <div class="tf-grid-layout sm-col-2">
+                                                    <div class="service-image">
+                                                        <div class="wrap_image">
+                                                            <img width="340" height="206" src="assets/images/section/service-5.jpg" alt="Image">
+                                                        </div>
+                                                    </div>
+                                                    <div class="service-image">
+                                                        <div class="wrap_image">
+                                                            <img width="340" height="206" src="assets/images/section/service-6.jpg" alt="Image">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="service-tag">
+                                                    <a href="#" class="tag-item text-body-3 fw-medium text-black-72 link">
+                                                        Flutter + Firebase
+                                                    </a>
+                                                    <a href="#" class="tag-item text-body-3 fw-medium text-black-72 link">
+                                                        API integration
+                                                    </a>
+                                                    <a href="#" class="tag-item text-body-3 fw-medium text-black-72 link">
+                                                        Play Store deployment
+                                                    </a>
+                                                </div>
+                                                <p class="service-desc text-black-56">
+                                                    I build Android and iOS apps from a single Flutter codebase, fast to launch and easy to maintain.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Service -->
+
+                            <!-- Tech Stack -->
+                            <div id="tech" class="section-tech-stack flat-spacing">
+                                <div class="sect-tag text-caption fw-medium effectFade fadeUp no-div">
+                                    <i class="icon icon-tech-stack"></i>
+                                    Tech Stack
+                                </div>
+                                <h4 class="s-title letter-space--2 text-black-72 split-text effect-blur-fade">
+                                    See how my expertise with these <br class="d-none d-sm-block">
+                                    tools drives better results
+                                </h4>
+                                <ul class="tech-list">
+                                    <li class="wg-tech">
+                                        <div class="tech-infor effectFade fadeUp no-div">
+                                            <div class="tech_image">
+                                                <img loading="lazy" width="19" height="28" src="assets/images/section/tech-1.svg" alt="Image">
+                                            </div>
+                                            <div class="tech_info">
+                                                <p class="info__name fw-medium text-black-72">Laravel</p>
+                                                <p class="info__duty text-black-56 text-body-3">Primary backend framework — production platforms &amp; APIs</p>
+                                            </div>
+                                        </div>
+                                        <div class="tech-progress">
+                                            <div class="progress-line" data-progress="80">
+                                                <p class="progress-num text-caption">
+                                                    <span class="counter">
+                                                        <span class="number" data-speed="1500" data-to="80">10</span>
+                                                        %
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="br-line"></li>
+                                    <li class="wg-tech">
+                                        <div class="tech-infor effectFade fadeUp no-div">
+                                            <div class="tech_image">
+                                                <img class="image-switch" data-dark="assets/images/section/tech-2_dark.svg" width="18" height="28"
+                                                    src="assets/images/section/tech-2.svg" alt="Image">
+                                            </div>
+                                            <div class="tech_info">
+                                                <p class="info__name fw-medium text-black-72">MySQL</p>
+                                                <p class="info__duty text-black-56 text-body-3">Database design, optimisation &amp; migrations
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="tech-progress">
+                                            <div class="progress-line" data-progress="90">
+                                                <p class="progress-num text-caption">
+                                                    <span class="counter">
+                                                        <span class="number" data-speed="1500" data-to="90">10</span>
+                                                        %
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="br-line"></li>
+                                    <li class="wg-tech">
+                                        <div class="tech-infor effectFade fadeUp no-div">
+                                            <div class="tech_image">
+                                                <img loading="lazy" width="29" height="28" src="assets/images/section/tech-3.svg" alt="Image">
+                                            </div>
+                                            <div class="tech_info">
+                                                <p class="info__name fw-medium text-black-72">Flutter</p>
+                                                <p class="info__duty text-black-56 text-body-3">Android &amp; iOS apps from one codebase
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="tech-progress">
+                                            <div class="progress-line" data-progress="60">
+                                                <p class="progress-num text-caption">
+                                                    <span class="counter">
+                                                        <span class="number" data-speed="1500" data-to="60">10</span>
+                                                        %
+                                                    </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /Tech Stack -->
+
+                            <!-- Testimonial -->
+                            <div id="testimonial" class="section-testimonial flat-spacing">
+                                <div class="sect-tag text-caption fw-medium effectFade fadeUp no-div">
+                                    <i class="icon icon-tes"></i>
+                                    Testimonials
+                                </div>
+                                <div class="heading overflow-hidden">
+                                    <div class="head-left">
+                                        <h4 class="s-title letter-space--2 text-black-72 split-text effect-blur-fade">
+                                            Here's what <br class="d-none d-lg-block">
+                                            people are saying
+                                        </h4>
+                                        <div class="box-counter effectFade fadeUp no-div">
+                                            <div class="wg-counter">
+                                                <p class="counter h1 d-flex font-2 letter-space--2 text-black-72">
+                                                    <span class="number" data-speed="1000" data-to="7">0</span>
+                                                    +
+                                                </p>
+                                                <p class="text text-black-56">
+                                                    Finalized projects
+                                                </p>
+                                            </div>
+                                            <div class="wg-counter">
+                                                <p class="counter h1 d-flex font-2 letter-space--2 text-black-72">
+                                                    <span class="number" data-speed="1000" data-to="98">0</span>
+                                                    %
+                                                </p>
+                                                <p class="text text-black-56">
+                                                    Client satisfaction
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div dir="ltr" class="swiper sw-main-image effectFade fadeRight no-div">
+                                        <div class="swiper-wrapper">
+                                            <!-- item 1 -->
+                                            <div class="swiper-slide">
+                                                <div class="head-image">
+                                                    <div class="wrap-image">
+                                                        <img loading="lazy" width="236" height="297" src="assets/images/section/tes-1.jpg"
+                                                            alt="Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- item 2 -->
+                                            <div class="swiper-slide">
+                                                <div class="head-image">
+                                                    <div class="wrap-image">
+                                                        <img loading="lazy" width="236" height="297" src="assets/images/section/tes-2.jpg"
+                                                            alt="Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- item 3 -->
+                                            <div class="swiper-slide">
+                                                <div class="head-image">
+                                                    <div class="wrap-image">
+                                                        <img loading="lazy" width="236" height="297" src="assets/images/section/tes-3.jpg"
+                                                            alt="Image">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="swiper-testimonial_wrap effectFade fadeUp no-div">
+                                    <div dir="ltr" class="swiper tf-swiper swiper-testimonial">
+                                        <div class="swiper-wrapper">
+                                            <!-- item 1 -->
+                                            <div class="swiper-slide">
+                                                <div class="testimonial-v01">
+                                                    <div class="tes-icon">
+                                                        <i class="icon icon-quote"></i>
+                                                    </div>
+                                                    <h5 class="tes-text letter-space--2 text-black-72">
+                                                        “They carefully understood our vision and audience, developing a strategy that truly represented our brand. Their innovative campaigns increased engagement, and their expertise was crucial in helping us achieve meaningful results.”
+                                                    </h5>
+                                                    <div class="tes-author">
+                                                        <p class="author_name fw-medium text-black-72">Anthony Notson</p>
+                                                        <p class="text-body-3 text-black-56">Marketing Expert
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- item 2 -->
+                                            <div class="swiper-slide">
+                                                <div class="testimonial-v01">
+                                                    <div class="tes-icon">
+                                                        <i class="icon icon-quote"></i>
+                                                    </div>
+                                                    <h5 class="tes-text letter-space--2 text-black-72">
+                                                        “Collaborating with the team was a fantastic experience. They grasped our goals immediately and turned them into a polished, effective solution that exceeded all expectations.”
+                                                    </h5>
+                                                    <div class="tes-author">
+                                                        <p class="author_name fw-medium text-black-72">Charles Morganti</p>
+                                                        <p class="text-body-3 text-black-56">Echocardiographer
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- item 3 -->
+                                            <div class="swiper-slide">
+                                                <div class="testimonial-v01">
+                                                    <div class="tes-icon">
+                                                        <i class="icon icon-quote"></i>
+                                                    </div>
+                                                    <h5 class="tes-text letter-space--2 text-black-72">
+                                                        “Interacting with their customer service was a refreshing experience. They responded promptly, understood our concerns, and provided solutions that were both practical and thoughtful, leaving us completely satisfied.”
+                                                    </h5>
+                                                    <div class="tes-author">
+                                                        <p class="author_name fw-medium text-black-72">Nicholas Bogdan
+                                                        </p>
+                                                        <p class="text-body-3 text-black-56">Brand Strategist
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="number-pagination"></div>
+                                    <div class="group-btn">
+                                        <div class="sw-nav sw-nav-prev link">
+                                            <i class="icon icon-arrow-caret-left"></i>
+                                        </div>
+                                        <div class="sw-nav sw-nav-next link">
+                                            <i class="icon icon-arrow-caret-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Testimonial -->
+
+                            <!-- Contact -->
+                            <div id="contact" class="section-contact flat-spacing">
+                                <div class="sect-tag text-caption fw-medium effectFade fadeUp no-div">
+                                    <i class="icon icon-send"></i>
+                                    Contact
+                                </div>
+                                <h4 class="s-title letter-space--2 split-text effect-blur-fade">
+                                    If you have a general or project <br class="d-none d-lg-block">
+                                    enquiry, please drop me an email <br class="d-none d-lg-block">
+                                    or fill the form - available now
+                                </h4>
+                                <form class="form-contact" id="contactform" action="./assets/contact/contact-process.php" method="post"
+                                    novalidate="novalidate">
+                                    <div class="form-content effectFade fadeUp no-div">
+                                        <fieldset class="field-ip">
+                                            <input type="text" name="name" id="name" placeholder="Your Name *" required>
+                                        </fieldset>
+                                        <fieldset class="field-ip">
+                                            <input type="email" name="email" id="email" placeholder="Email Address *" required>
+                                        </fieldset>
+                                        <fieldset class="field-ip">
+                                            <input type="text" name="message" id="message" placeholder="Project Description">
+                                        </fieldset>
+                                    </div>
+                                    <div class="form-action effectFade fadeUp no-div">
+                                        <div class="send-wrap">
+                                            <button type="submit" class="tf-btn animate-btn animate-dark">
+                                                <span class="text-body-3">
+                                                    Send Message
+                                                </span>
+                                            </button>
+                                        </div>
+                                        <a href="#" class="text-body-1 link letter-space--2 text-black-72">
+                                            hello@sohaibkhaliq.com
+                                        </a>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- /Contact -->
+
+                            <!-- Footer -->
+                            <div id="footer" class="tf-footer flat-spacing">
+                                <div class="block-quote effectFade fadeUp no-div">
+                                    <h5 class="quote-text font-3 fw-normal text-black-72">
+                                        <span class="text-black-56">“</span>
+                                        Design is not just what it looks like and feels like. Design is how it works.
+                                        <span class="text-black-56">“</span>
+                                    </h5>
+                                    <p class="quote-author font-3 text-black-56 h6 text-end ">
+                                        Steve Jobs
+                                    </p>
+                                </div>
+                                <div class="br-line"></div>
+                                <div class="foot-inner">
+                                    <div class="isak effectFade fadeUp no-div">
+                                        <svg viewBox="0 0 354 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 157.225V6.93641H19.4068V157.225H0Z" fill="black" fill-opacity="0.72" />
+                                            <path
+                                                d="M85.0002 160C57.2763 160 36.9454 144.277 35.0971 123.006L55.428 117.457C56.3521 131.329 69.29 142.428 85.9243 142.428C98.8622 142.428 109.028 135.491 109.028 125.78C109.028 99.8844 40.6419 110.058 40.6419 71.2139C40.6419 52.2543 57.2763 38.8439 81.3037 38.8439C105.331 38.8439 123.121 52.0231 125.662 70.289L106.255 75.3757C105.793 64.0462 95.6277 55.9538 81.7658 55.9538C69.29 55.9538 60.5107 62.4277 60.5107 71.2139C60.5107 96.185 129.359 86.0116 129.359 125.78C129.359 145.665 110.876 160 85.0002 160Z"
+                                                fill="black" fill-opacity="0.72" />
+                                            <path
+                                                d="M175.578 160C152.705 160 137.688 146.821 137.688 126.705C137.688 110.751 150.395 97.8035 170.033 94.3353L205.612 87.8613C209.54 87.1676 212.543 84.1618 212.543 80.4624C212.543 65.896 202.609 55.4913 188.516 55.4913C173.729 55.4913 162.64 66.1272 161.716 82.3121L141.385 80C143.695 55.9538 162.871 38.8439 187.591 38.8439C213.005 38.8439 231.026 56.6474 231.026 81.3873V134.104L231.488 157.225H216.702L213.467 139.653C206.305 152.139 192.443 160 175.578 160ZM158.019 125.78C158.019 135.491 166.336 141.965 179.274 141.965C198.681 141.965 212.543 128.555 212.543 110.058V101.965C210.464 102.428 207.922 103.121 205.15 103.584L174.654 109.133C164.488 110.983 158.019 117.457 158.019 125.78Z"
+                                                fill="black" fill-opacity="0.72" />
+                                            <path
+                                                d="M330.897 157.225L292.083 104.277L271.752 126.243V157.225H253.27V0H271.752V101.04L324.428 41.6185H349.379L304.559 90.6358L354 157.225H330.897Z"
+                                                fill="black" fill-opacity="0.72" />
+                                        </svg>
+                                    </div>
+                                    <a href="#" class="f-logo effectFade fadeZoom">
+                                        <div class="logo">
+                                            <img class="image-switch" data-light="assets/images/logo/logo.svg"
+                                                data-dark="assets/images/logo/logo-2.svg" loading="lazy" width="32" height="32"
+                                                src="assets/images/logo/logo.svg" alt="Image">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="foot-bottom">
+                                    <p class="text-nocopy text-black-56 effectFade fadeUp no-div">
+                                        All rights reserved <br>
+                                        © 2026 Sohaib Khaliq
+                                    </p>
+                                    <div class="isak effectFade fadeUp no-div">
+                                        <svg viewBox="0 0 428 162" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M267.304 41.4092C233.789 41.4092 209.924 66.4273 209.924 101.454C209.924 136.481 233.789 161.5 267.304 161.5C300.819 161.5 324.683 136.481 324.683 101.454C324.682 66.4274 300.819 41.4094 267.304 41.4092ZM57.8799 41.4092C24.3648 41.4092 0.500204 66.4273 0.5 101.454C0.5 136.481 24.3647 161.5 57.8799 161.5C91.395 161.5 115.259 136.481 115.259 101.454C115.259 66.4274 91.3948 41.4093 57.8799 41.4092ZM326.392 10.0459V29.2275H407.389V76.8633H334.582V96.0459H407.389V158.772H427.5V10.0459H326.392ZM174.328 3.22754V158.772H193.529V3.22754H174.328ZM131.553 44.1367V158.772H150.754V44.1367H131.553ZM267.304 60.1367C289.049 60.1369 304.571 77.3623 304.571 101.454C304.571 125.313 289.054 142.318 267.304 142.318C245.553 142.318 230.035 125.313 230.035 101.454C230.035 77.3622 245.558 60.1367 267.304 60.1367ZM57.8799 60.1367C79.6252 60.1368 95.1473 77.3623 95.1475 101.454C95.1475 125.313 79.6305 142.318 57.8799 142.318C36.1291 142.318 20.6113 125.313 20.6113 101.454C20.6115 77.3622 36.1344 60.1367 57.8799 60.1367ZM141.153 0.5C132.671 0.5 126.547 6.87608 126.547 15.5459C126.547 24.2155 132.671 30.5908 141.153 30.5908C149.635 30.5907 155.76 24.2154 155.76 15.5459C155.76 6.87613 149.635 0.500076 141.153 0.5Z"
+                                                stroke="black" stroke-opacity="0.56" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Footer -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Javascript -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/jquery-validate.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- <script src="assets/js/odometer.min.js"></script> -->
+    <script src="assets/js/carousel.js"></script>
+    <script src="assets/js/infinityslide.js"></script>
+    <script src="assets/js/ScrollSmooth.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/SplitText.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/ScrollToPlugin.min.js"></script>
+    <script src="assets/js/gsapAnimation.js"></script>
+
+    <script src="assets/js/countto.js"></script>
+    <script src="assets/js/animation-change-text.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
+
 </html>
